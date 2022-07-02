@@ -17,7 +17,7 @@
 
 // Var-ზე მუშაობს hoisting
 
-// let data = 6;
+// var data = 6;
 
 // let data = 10;
 
@@ -32,11 +32,15 @@
 // console.log(data);
 // Var შეგვიძლია რამდენიმეჯეერ გამოვიყენოთ ერთ scope-
 
+// var light = 2
+
+// var light = 10
+
+// For loop
+
 // for (var i = 0; i < 5; i++) {
 //   setTimeout(() => console.log(i), 100);
 // }
-
-// For loop
 
 // 2015 წელს ES6 შემოიტანა let და const.
 // Let, Const არის Block scope
